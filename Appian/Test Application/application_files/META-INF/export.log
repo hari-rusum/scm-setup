@@ -1,0 +1,87 @@
+Success (3):
+content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 "APN_addHeaderLabelOrValueToDropdownObject"
+content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 "APN_AGGREGATION_COUNT"
+application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 "Test Application"
+
+Referenced precedents that were not exported (3):
+user harir harir
+content 2568 _a-0000d690-12fb-8000-0f1a-010000010000_1376
+content 2584 _a-0000d73e-944a-8000-9ba2-011c48011c48_13227
+
+Trace:
+2016-08-28 06:13:24.555 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Begin transport.
+2016-08-28 06:13:24.555 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Retrieving object data.
+2016-08-28 06:13:24.563 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 App associated objects: GlobalIdMap[content=[_a-0000d732-1e1b-8000-a2f0-010000010000_1082, _a-0000d73e-944a-8000-9ba2-011c48011c48_13221]]
+2016-08-28 06:13:24.564 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Invalid associated objects: GlobalIdMap[]
+2016-08-28 06:13:24.564 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000d732-1e1b-8000-a2f0-010000010000_1082=2624, _a-0000d73e-944a-8000-9ba2-011c48011c48_13221=2644}]
+2016-08-28 06:13:24.564 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Setting uuids of object references.
+2016-08-28 06:13:24.564 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: Application.forum
+2016-08-28 06:13:24.566 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: Application.parent
+2016-08-28 06:13:24.573 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@381b06ab[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[harir],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-08-28 06:13:24.573 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.573 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.573 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=administrators,usernames=[harir],inherit=false,allowForAll=false]
+2016-08-28 06:13:24.574 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.574 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.574 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.581 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Begin transport.
+2016-08-28 06:13:24.581 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Retrieving object data.
+2016-08-28 06:13:24.587 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Setting uuids of object references.
+2016-08-28 06:13:24.587 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: [Content:id=2624,versionId=-1,name=APN_addHeaderLabelOrValueToDropdownObject,description=This rule is used to add header text to a dropdown object (i.e. "-- Please Select Option --"),type=32,subtype=1,uuid=_a-0000d732-1e1b-8000-a2f0-010000010000_1082,parent=2568,parentName=APN Array Rules,parentType=2,log=2624,logName=APN_addHeaderLabelOrValueToDropdownObject,state=255,visibility=35,security=143,creator=Administrator,createdTimestamp=2016-06-09 17:59:29.0,updatedTimestamp=2016-06-09 17:59:29.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@3ba320f, system=0, preferredEditor=legacy, hidden=0, ruletype=1, dep_functions=[Ljava.lang.String;@3bcb54e4, definition==insert(ri!dropdownArray,ri!headerLabelOrValue,1), dep_types=[Ljava.lang.String;@10f9de61, metadataExpr=null, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@5fd85806, dep_variables=[[Ljava.lang.String;@da023b8},partition=2,partitionName=C:/appian/_admin/accdocs2]
+2016-08-28 06:13:24.587 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: FreeformRule.forum
+2016-08-28 06:13:24.588 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: TypedVariable[name=headerLabelOrValue,it=3,v=]
+2016-08-28 06:13:24.588 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: TypedVariable[name=dropdownArray,it=103,v=<null>]
+2016-08-28 06:13:24.588 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: FreeformRule.parent
+2016-08-28 06:13:24.596 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@6ea81080[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-08-28 06:13:24.596 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-08-28 06:13:24.596 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-08-28 06:13:24.596 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=administrators,usernames=[Administrator],inherit=true,allowForAll=false]
+2016-08-28 06:13:24.597 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.598 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.598 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.598 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Exporting binary resources.
+2016-08-28 06:13:24.598 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Serializing object to XML.
+2016-08-28 06:13:24.609 DEBUG content 2624 _a-0000d732-1e1b-8000-a2f0-010000010000_1082 Object transported.
+2016-08-28 06:13:24.609 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Begin transport.
+2016-08-28 06:13:24.609 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Retrieving object data.
+2016-08-28 06:13:24.615 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Setting uuids of object references.
+2016-08-28 06:13:24.615 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: [Content:id=2644,versionId=-1,name=APN_AGGREGATION_COUNT,description=AggregationFunction COUNT,type=32,subtype=0,uuid=_a-0000d73e-944a-8000-9ba2-011c48011c48_13221,parent=2584,parentName=Aggregation Functions,parentType=2,log=2644,logName=APN_AGGREGATION_COUNT,state=255,visibility=35,security=15,creator=Administrator,createdTimestamp=2016-06-09 17:59:33.0,updatedTimestamp=2016-06-09 17:59:33.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=COUNT, returnType=3},partition=1,partitionName=C:/appian/_admin/accdocs1]
+2016-08-28 06:13:24.615 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: Constant.forum
+2016-08-28 06:13:24.615 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: Constant.parent
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@1e08ab8[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.62 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.621 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-08-28 06:13:24.621 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Exporting binary resources.
+2016-08-28 06:13:24.621 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Serializing object to XML.
+2016-08-28 06:13:24.624 DEBUG content 2644 _a-0000d73e-944a-8000-9ba2-011c48011c48_13221 Object transported.
+2016-08-28 06:13:24.624 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Exporting binary resources.
+2016-08-28 06:13:24.624 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Serializing object to XML.
+2016-08-28 06:13:24.626 DEBUG application 2938 _a-0000dd7f-53b5-8000-9ccd-01ef9001ef90_2957 Object transported.
